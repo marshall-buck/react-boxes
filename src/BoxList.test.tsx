@@ -40,6 +40,8 @@ it("add box button works", function () {
   });
 
   it("remove button works", function () {
+
+
     const {getByText,container, debug} = render(<BoxList />)
 
     const addButton = getByText("Add a new box!")
